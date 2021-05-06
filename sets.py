@@ -32,4 +32,4 @@ print(d1.keys() | s)
 
 # there are certain optimizations for dicts
 # for a class, all the objects hold attributes in dicts, so keys can be shared
-# similarly, the older implementation of dict had empty rows to account for future entries, but the current implementation just stores the indices in the entries array
+# similarly, the older implementation of dict had empty rows to account for future entries, but the current implementation just stores the indices in the entries array, It's called compact dict. PHP 7 uses the same compact dict layout.
